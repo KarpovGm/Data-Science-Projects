@@ -1,61 +1,58 @@
-# Skillfactory Проект-2: Анализ вакансий из HeadHunter - PostgresSQL 
+# Skillfactory Project-2: Analyzing HeadHunter Vacancies with PostgreSQL
 
-## Оглавление  
-[1. Описание проекта](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#Описание-проекта)  
-[2. Какой кейс решаем?](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#Какой-кейс-решаем)  
-[3. Краткая информация о данных](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#Краткая-информация-о-данных)  
-[4. Этапы работы над проектом](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#Этапы-работы-над-проектом)  
-[5. Результат](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#Результат)    
-[6. Выводы](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#Выводы) 
+## Table of Contents  
+[1. Project Description](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#project-description)  
+[2. What Case Are We Solving?](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#what-case-are-we-solving)  
+[3. Brief Data Overview](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#brief-data-overview)  
+[4. Project Stages](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#project-stages)  
+[5. Results](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#results)  
+[6. Conclusions](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#conclusions) 
 
-### Описание проекта    
-Это мой второй Data Science проект, в нем я Анализирую вакансии с сайта HeadHunter с помощью языка SQL. 
+### Project Description    
+This is my second Data Science project where I analyze job vacancies from the HeadHunter website using SQL.
 
-:arrow_up:[к оглавлению](_)
-
-
-### Какой кейс решаем?    
-Целью данного проекта является анализировать данные, для создания модели машинного обучения, которая будет рекомендовать вакансии клиентам c агенства. 
-
-**Что практикуем**     
-    -Решать Data-Science кейсы
-    -закреплять пройденный в курсе материал
-    -работа с SQL и Python
+:arrow_up:[back to top](_)
 
 
-### Краткая информация о данных
-Данные представляют собой базу данных со следующими таблицами:
-    - vacancies / вакансии
-    - areas / регионы
-    - employers / работодатели
-    - industires / сферы деятельности
+### What Case Are We Solving?    
+The goal of this project is to analyze data to build a machine learning model that will recommend job vacancies to agency clients.
+
+**What we practice**     
+    - Solving Data Science cases
+    - Reinforcing the material covered in the course
+    - Working with SQL and Python
+
+
+### Brief Data Overview
+The data consists of a database with the following tables:
+    - vacancies
+    - areas (regions)
+    - employers
+    - industries
   
-:arrow_up:[к оглавлению](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#Оглавление)
+:arrow_up:[back to top](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#table-of-contents)
 
 
-### Этапы работы над проектом  
-Проект разделен на пять этапов:
-    1) Знакомство с данными
-    2) Предварительный анализ данных
-    3) Детальный анализ вакансий 
-    4) Анализ работодателей
-    5) Предметный анализ
+### Project Stages  
+The project is divided into five stages:
+    1) Familiarization with the data
+    2) Preliminary data analysis
+    3) Detailed analysis of vacancies
+    4) Analysis of employers
+    5) Subject analysis
 
-Все эти этапы проработаны в JypiterNotebook.
+All these stages are elaborated in Jupyter Notebook.
 
-:arrow_up:[к оглавлению](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#Оглавление)
-
-
-### Результаты:  
-Данные были должным образом анализированы, путем запросов в базу данных с помощью SQL и дальнейшим построением графиков и интерпретации данных. Благодаря этому компания будет иметь возможность построить модель машинного обучения, для рекомендации вакансий.
-
-:arrow_up:[к оглавлению](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#Оглавление)
+:arrow_up:[back to top](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#table-of-contents)
 
 
-### Выводы:  
-Данный проект был для меня не простым, надо было как следует углубиться в SQL, что-бы иметь возможность верно интерпретировать данные, благодаря правильным запросам. Я считаю, что работу я проделал достойную, не без проблем и косяков, но тем не менее.
+### Results:  
+The data was properly analyzed through SQL queries and further graphing and data interpretation. As a result, the company will have the opportunity to build a machine learning model to recommend job vacancies.
 
-:arrow_up:[к оглавлению](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#Оглавление)
+:arrow_up:[back to top](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#table-of-contents)
 
 
-Если информация по этому проекту покажется вам интересной или полезной, то я буду очень вам благодарен, если отметите репозиторий и профиль ⭐️⭐️⭐️-дами
+### Conclusions:  
+This project was challenging for me as it required a deep dive into SQL to correctly interpret the data through accurate queries. I believe I have done commendable work, not without its issues and mistakes, but nonetheless.
+
+:arrow_up:[back to top](https://github.com/KarpovGm/DS-Projects/blob/main/README.md#table-of-contents)
