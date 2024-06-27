@@ -1,58 +1,55 @@
-# Skillfactory Проект-1: Анализ вакансий Head Hunter
+# Skillfactory Project-1: Head Hunter Job Analysis
 
-## Оглавление  
-[1. Описание проекта](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#описание-проекта)  
-[2. Какой кейс решаем?](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#какой-кейс-решаемhttps://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#какой-кейс-решаем)  
-[3. Краткая информация о данных](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#краткая-информация-о-данных)  
-[4. Этапы работы над проектом](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#этапы-работы-над-проектом)  
-[5. Результат](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#результаты)    
-[6. Выводы](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#выводы) 
+## Table of Contents  
+[1. Project Description](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#project-description)  
+[2. What Case Are We Solving?](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#what-case-are-we-solving)  
+[3. Brief Data Overview](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#brief-data-overview)  
+[4. Project Stages](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#project-stages)  
+[5. Results](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#results)  
+[6. Conclusions](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#conclusions) 
 
-Ссылка на GoogleDrive(https://drive.google.com/drive/folders/1PJdCYux3V6fBtb0siWRP9MGOkKbPRzH8?usp=sharing)
+Link to GoogleDrive(https://drive.google.com/drive/folders/1PJdCYux3V6fBtb0siWRP9MGOkKbPRzH8?usp=sharing)
 
-### Описание проекта    
-Первый Data-Science проект. Цель: решить бизнес-задачу, которая заключается в анализе вакансий из данных компании HeadHunter.
+### Project Description    
+First Data Science project. Objective: to solve a business problem involving the analysis of job vacancies from HeadHunter data.
 
-:arrow_up:[к оглавлению](_)
-
-
-### Какой кейс решаем?    
-Компания HeadHunter хочет построить модель, которая бы автоматически определяла примерный уровень заработной платы, подходящей пользователю, исходя из информации, которую он указал о себе. Но как известно прежде чем построить модель, данные необходимо преобразовать, исследовать и очистить. В этом и состояла моя задача.
-
-**Что практикуем**     
-    -Решать Data-Science кейсы
-    -закреплять пройденный в курсе материал
+:arrow_up:[back to top](_)
 
 
-### Краткая информация о данных
-Данные представляют собой базу резюме выгруженную с сайта поиска вакансий hh.ru (headhunter).
-В базе собраны такие данные о соискателях как: Пол, возраст, желаемая ЗП, Город проживания, опыт работы, желаемый график работы, Последнее/нынешнее место работы, Последняя/нынешняя должность, уровень Образования, желаемый тип занятости, информация о наличии автомобиля и желание (или наоборот, нежелание) переехать.
+### What Case Are We Solving?    
+HeadHunter wants to develop a model that would automatically determine the approximate salary level suitable for a user, based on the information they provide about themselves. However, as is known, before building a model, the data must be transformed, explored, and cleaned. That was my task.
+
+**What we practice**     
+    - Solving Data Science cases
+    - Reinforcing the material covered in the course
+
+
+### Brief Data Overview
+The data consists of a resume database downloaded from the hh.ru (HeadHunter) job search site.
+The database includes information about job seekers such as: Gender, age, desired salary, city of residence, work experience, preferred work schedule, last/current place of work, last/current position, level of education, desired type of employment, car ownership, and willingness (or unwillingness) to relocate.
   
-:arrow_up:[к оглавлению](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#оглавление)
+:arrow_up:[back to top](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#table-of-contents)
 
 
-### Этапы работы над проектом  
-Проект разделен на четыре этапа:
-    1) Базовый анализ структуры данных
-    2) Преобразование данных
-    3) Разведовательный анализ 
-    4) Очистка данных
+### Project Stages  
+The project is divided into four stages:
+    1) Basic analysis of data structure
+    2) Data transformation
+    3) Exploratory data analysis 
+    4) Data cleaning
 
-Все эти этапы проработаны в JypiterNotebook.
+All these stages are elaborated in Jupyter Notebook.
 
-:arrow_up:[к оглавлению](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#оглавление)
-
-
-### Результаты:  
-После проведения преобразований данных и построения графиков для разведовательного анализа, компания будет иметь возможность построить модель машинного обучения, что и требовалось.
-
-:arrow_up:[к оглавлению](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#оглавление)
+:arrow_up:[back to top](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#table-of-contents)
 
 
-### Выводы:  
-Первый настоящий Data-Science проект завершен, я сталкивался, конечно, с немалым количеством трудностей, но смог решить все поставленные задачи. Я углубился в тему и чувствую, что хорошо усвоил материал, пройденный на курсе до проекта.
+### Results:  
+After performing data transformations and creating charts for exploratory analysis, the company will be able to build a machine learning model, which was required.
 
-:arrow_up:[к оглавлению](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#оглавление)
+:arrow_up:[back to top](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#table-of-contents)
 
 
-Если информация по этому проекту покажется вам интересной или полезной, то я буду очень вам благодарен, если отметите репозиторий и профиль ⭐️⭐️⭐️-дами
+### Conclusions:  
+The first real Data Science project is completed; I faced quite a number of challenges, but I managed to solve all the tasks set. I delved into the topic and feel that I have well assimilated the material covered in the course prior to this project.
+
+:arrow_up:[back to top](https://github.com/KarpovGm/HeadHunter_Analysis/blob/main/README.md#table-of-contents)
